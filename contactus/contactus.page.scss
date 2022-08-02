@@ -1,0 +1,318 @@
+ion-content.background{
+  --background: url(../../assets/background.png) 0 0/100% 100% no-repeat;
+}
+ion-toolbar{
+  margin-top: 5px;
+  margin-left: normal;
+  --background: transparent;
+  --ion-color-base: transparent !important;
+
+  ion-button{
+    margin-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+
+  }
+
+    @media (max-width:700px){
+      ion-button{
+        font-size: 15px;
+      }
+  }   
+
+    @media (max-width:750px){
+      ion-button{
+        font-size: 13px;
+      }
+  }   
+
+    @media (max-width:540px){
+      ion-button{
+        font-size: 12px;
+      }
+  }   
+
+    @media (max-width:500px){
+      ion-button{
+        font-size: 10px;
+      }
+  }
+
+    @media (max-width:430px){
+      ion-button{
+        font-size: 9px;
+      }
+  }
+
+    @media (max-width:400px){
+      ion-button{
+        font-size: 7px;
+      }
+  }
+
+    @media (max-width:350px){
+      ion-button{
+        font-size: 6px;
+      }
+  }
+
+    @media (max-width:300px){
+      ion-button{
+        font-size: 5px;
+      }
+  }
+
+    @media (max-width:280px){
+      ion-button{
+        font-size: 4px;
+        margin-right: 4px ;
+      }
+  }
+}
+
+.we{
+  font-size: 22px;
+}
+
+@media (max-width:800px){
+  .we{
+    font-size: 21px;
+  }
+}
+
+@media (max-width:700px){
+  .we{
+    font-size: 20px;
+  }
+}
+
+@media (max-width:600px){
+  .we{
+    font-size: 14px;
+  }
+}
+
+@media (max-width:500px){
+  .we{
+    font-size: 12px;
+  }
+}
+
+@media (max-width:400px){
+  .we{
+    font-size: 10px;
+  }
+}
+
+@media (max-width:300px){
+  .we{
+    font-size: 8px;
+  }
+}
+
+
+ion-title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+
+@media (max-width:400px){
+  ion-title{
+    font-size: 30px;
+  }
+}
+
+@media (max-width:300px){
+  ion-title{
+    font-size: 20px;
+  }
+}
+
+@media (max-width:200px){
+  ion-title{
+    font-size: 10px;
+  }
+}
+
+p{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+@media (max-width:400px){
+  p{
+    font-size: 15px;
+  }
+}
+
+@media (max-width:300px){
+  p{
+    font-size: 13px;
+  }
+}
+
+@media (max-width:200px){
+  p{
+    font-size: 8px;
+  }
+}
+
+ion-chip{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+
+.bottom{
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+}
+
+
+@media (max-width:700px){
+  .bottom{
+    font-size: 13px;
+  }
+}
+
+@media (max-width:500px){
+  .bottom{
+    font-size: 9px;
+  }
+}
+
+@media (max-width:400px){
+  .bottom{
+    font-size: 8px;
+  }
+}
+
+ion-text{
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+}
+
+@media (max-width:500px){
+  ion-text{
+    font-size: 18px;
+  }
+}
+
+@media (max-width:400px){
+  ion-text{
+    font-size: 15px;
+  }
+}
+
+ion-item{
+  --background: transparent;
+  --ion-color-base: transparent !important;
+}
+
+ion-card{
+  --background: transparent;
+  --ion-color-base: transparent !important;
+
+img{
+  width: 80px;
+}
+
+@media (max-width:500px){
+  img{
+    width: 50px;
+  }
+}
+
+@media (max-width:400px){
+  img{
+    width: 20px;
+  }
+}
+
+  ion-card-header{
+    text-align: center;
+  }
+
+  ion-card-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+  }
+
+  @media (max-width:500px){
+    ion-card-title{
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width:400px){
+    ion-card-title{
+      font-size: 16px;
+    }
+  }
+
+  @media (max-width:300px){
+    ion-card-title{
+      font-size: 14px;
+    }
+  }
+
+  ion-card-subtitle{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+  }
+
+  @media (max-width:500px){
+    ion-card-subtitle{
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width:400px){
+    ion-card-subtitle{
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width:300px){
+    ion-card-subtitle{
+      font-size: 10px;
+    }
+  }
+
+}
+
+.do{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  margin: 10px;
+}
+
+@media (max-width:700px){
+  .do{
+    font-size: 20px;
+  }
+}
+
+@media (max-width:600px){
+  .do{
+    font-size: 18px;
+  }
+}
+
+@media (max-width:400px){
+  .do{
+    font-size: 15px;
+  }
+}
+
+@media (max-width:300px){
+  .do{
+    font-size: 10px;
+  }
+}
